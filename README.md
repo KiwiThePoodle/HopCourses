@@ -73,6 +73,8 @@ In the profile page, users can update their profile info, set their interests, a
 
 ## Sentiment Analysis
 
+<img src="https://github.com/KiwiThePoodle/HopCourses/blob/main/Sentiment%20Analysis.png">
+
 The 'finetune_review_dataset.ipynb' finetunes the 'bert-base-cased' model on the 'coursera course review' dataset. The training of the model takes 4 hours to process.
 The 'course_review_analyser.ipynb' imports the finetuned model we created above and runs it on the review input by the user. To run this file in current state, you can use Google Colab.
 The output is a rating between 1 to 5 and the confidence of the model in that rating itself. This helps us understand the emotion of the reviewer and it can be analyzed to give a final output on the website.
